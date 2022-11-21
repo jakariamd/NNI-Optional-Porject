@@ -1,8 +1,6 @@
 # NNI-Project
-- [ADMM Pruner.ipynb](https://github.com/jakariamd/NNI-Project/blob/main/ADMM%20Pruner.ipynb) contains all the code for pruning a pretrained model using **ADMM Pruner Pruner**
+- [Active Mean Rank Pruner.ipynb](https://github.com/jakariamd/NNI-Optional-Porject/blob/main/Activation%20Mean%20Rank%20Pruner.ipynb) contains all the code for pruning a pretrained model using **Active Mean Rank Pruner** and code for genrating input files, pre-processing and post processing data for TVM. 
 
-- [Activation Mean Rank Pruner.ipynb](https://github.com/jakariamd/NNI-Project/blob/main/L1-L2%20Norm%2C%20FPGM%20Pruner.ipynb) contains all the code for pruning a pretrained model using **Active Mean Rank Pruner**
+- [Original Model.ipynb](https://github.com/jakariamd/NNI-Optional-Porject/blob/main/Original%20Model.ipynb) contains all the code for generating original model. 
 
-- [L1-L2 Norm, FPGM Pruner.ipynb](https://github.com/jakariamd/NNI-Project/blob/main/L1-L2%20Norm%2C%20FPGM%20Pruner.ipynb) contains all the code for pruning a pretrained model using **L1-L2 Norm, and  FPGM PrunerPruner**
-
-- [mnist_model.py](https://github.com/jakariamd/NNI-Project/blob/main/mnist_model.py) contains the code for defining model, dataset, training and evaluation functions. 
+- [TVM Script](https://github.com/jakariamd/NNI-Optional-Porject/blob/main/TVM%20Script) contains the command used for optimization by TVM
