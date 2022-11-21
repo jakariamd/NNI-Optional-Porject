@@ -1,0 +1,5 @@
+tvmc compile --model-format pytorch  --input-shapes "data:[1000,1,28,28]" --output mnist-tvm.tar mnist_prunned.pt
+
+tvmc tune --model-format pytorch --target "llvm" --input-shapes "data:[1000,1,28,28]"  --output mnist_records_json updated_model.pt
+
+tvmc compile --target "llvm" --model-format pytorch  --input-shapes "data:[1000,1,28,28]"   --tuning-records mnist_records_json --output mnist-tvm-autotuned.tar updated_model.pt
